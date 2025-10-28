@@ -28,6 +28,7 @@ h2 {
   height: 1200px;
   background: orange;
   overflow: hidden;
+  border:1px solid blue;
 }
 
 .cont02 .circle {
@@ -54,12 +55,14 @@ h2 {
   font-weight: bold;
   letter-spacing: -5px;
   line-height: 1;
+  border:1px solid red
 }
 
-.cont03 {
-  background: black;
+.cont3 {
+    z-index: 2; /* 위로 올리기 */
+  background-color: #000;
 }
 
-.cont03 h2 {
-  color: #888;
+.cont3 h2 {
+  color: red;
 }
